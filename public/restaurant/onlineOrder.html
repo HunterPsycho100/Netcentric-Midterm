@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Online Order</title>
+
 </head>
 <body>
 
@@ -26,15 +27,90 @@
         </li>
     </ul>
 </nav>
-<h2>Online Order</h2>
+<section>
+    <h2>Menu</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th colspan="5">Ramen</th>
+            </tr>
+            <tr>
+                <td>Shoyu</td>
+                <td>Shoyu ramen soup is a clear, brown broth flavored with soy sauce (shoyu). The soup is usually
+                    made of chicken broth but often contains other meats such as pork, beef or fish depending on the
+                    region. Shoyu ramen is the most common type of ramen and is usually what is served when the menu
+                    does not specify a specific type of soup.
+                </td>
+                <td>$9.00</td>
+            </tr>
+            <tr>
+                <td>Tonkotsu</td>
+                <td>Particularly popular around Kyushu, tonkotsu ramen is made of pork bones which have been boiled
+                    down until they dissolve into a cloudy white broth. The thick, creamy soup is also often flavored
+                    with chicken broth and pork fat.
+                </td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td>Miso</td>
+                <td>Miso ramen soup is flavored with soybean paste (miso), resulting in a thick, brown soup with a rich,
+                    complex flavor. The style originated in Hokkaido where the long cold winters spurred the need for a
+                    heartier type of ramen soup, but it has spread to the point where it can be found pretty much
+                    anywhere in Japan.
+                </td>
+                <td>$9.00</td>
+            </tr>
+            <tr>
+                <th colspan="5">Extra Add Ons</th>
+            </tr>
+            <tr>
+                <td>Chashu</td>
+                <td>Fatty slices of roasted or braised pork.</td>
+                <td>$2.00</td>
+            </tr>
+            <tr>
+                <td>Menma</td>
+                <td>Preserved bamboo shoots with a salty flavor</td>
+                <td>$1.00</td>
+            </tr>
+            <tr>
+                <td>Tomago</td>
+                <td>Hard boiled, soft boiled, raw and marinated eggs.</td>
+                <td>$1.50</td>
+            </tr>
+            <tr>
+                <td>Seaweed</td>
+                <td> Wakame and Nori</td>
+                <td>$0.50</td>
+            </tr>
+            <tr>
+                <td>Kamaboko</td>
+                <td>Slices of steamed fish cake.</td>
+                <td>$1.00</td>
+            </tr>
+            <tr>
+                <td>Extra Noodles</td>
+                <td></td>
+                <td>$3.00</td>
+            </tr>
+            <tr>
+                <td>Rice</td>
+                <td></td>
+                <td>$1.00</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
 
-<p>Pick up only</p>
-<form action="/action_page.php">
-    <label for="fname">Name of the order: </label><br>
-    <input type="text" id="fname" name="fname" value="John"><br>
-    <h3>Entry</h3>
-    <input type="checkbox" value="Checkbox">
-    <label> for="ramen">Ramen</label><br>
+
+
 
     <input type="submit" value="Submit">
 </form>
