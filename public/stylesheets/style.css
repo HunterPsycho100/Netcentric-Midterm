@@ -6,3 +6,23 @@ body {
 a {
   color: #00B7FF;
 }
+p {
+  font-size: 15px;
+}
+/*.navbar{*/
+/*  background-color: #675833;*/
+/*}*/
+.full-width{
+  max-width:100%
+}
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.main {
+  padding: 30px;
+}
