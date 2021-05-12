@@ -12,32 +12,63 @@
 <body>
 
 <h1>Ichiraku Ramen</h1>
-<nav>
-    <ul>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <ul class="navbar-nav mr-auto">
+        <!--            <li class="nav-item">-->
+        <!--                <a class="nav-link" href="index.html">Home</a>-->
+        <!--            </li>-->
         <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="menu.html">Menu</a>
         </li>
         <li class="nav-item">
-            <a href="menu.html">Menu</a>
+            <a class="nav-link" href="review.html">Review</a>
         </li>
         <li class="nav-item">
-            <a href="review.html">Review</a>
+            <a class="nav-link" href="contactUs.html">Contact Us</a>
         </li>
         <li class="nav-item">
-            <a href="contactUs.html">Contact Us</a>
-        </li>
-        <li class="nav-item">
-            <a href="media.html">Media</a>
+            <a class="nav-link" href="media.html">Media</a>
         </li>
     </ul>
 </nav>
-<div>
 
-    <div>
-        <h2>Review</h2>
+<form action="" class="main-form needs-validation" novalidate>
+    <div class="row">
+        <div class="col">
+            <div class="form-group">
+                <label for="firstname">Firstname</label>
+                <input type="text" name="firstname" id="firstname" class="form-control is-invalid">
+                <div class="invalid-feedback">Looks good!</div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-group">
+                <label for="lastname">Lastname</label>
+                <input type="text" name="lastname" id="lastname" class="form-control">
+                <small class="form-text text-muted">
+                    This should be your last name.
+                </small>
+            </div>
+        </div>
+    </div><br>
+    <div class="form-group">
+        <label for="rating">Rating</label>
+        <input type="text" name="rating" id="rating" class="form-control" required>
 
-    </div>
-</div>
+    </div><br>
+    <div class="form-group">
+        <label for="comment">Comment</label>
+        <input type="comment" name="comment" id="comment" class="form-control">
+    </div><br>
 
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 </html>
